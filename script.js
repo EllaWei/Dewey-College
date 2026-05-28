@@ -1,5 +1,5 @@
 const courseCodeMap = {
-  "English": ["ENG1D", "ENG2D", "ENG3U", "ENG4U", "EAE1D", "EAE2D", "EAE3U", "EAE4U"],
+  "English": ["ENG1D", "ENG2D", "ENG3U", "ENG4U", "EAE1D", "EAE2D", "EAE3U", "EAE4U", "ELSCO", "ESLDO", "ESLEO", "ENG1W", "ELS2O", "EPS3O"],
   "Canadian Literature": ["ETC3M", "ETC4M"],
   "Mathematics": ["MTH1W", "MPM2D", "MCR3U", "MCF3M"],
   "Advanced Functions": ["MHF4U"],
