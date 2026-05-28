@@ -14,7 +14,9 @@ const courseCodeMap = {
   "Accounting": ["BAF3M", "BAT4M"],
   "History": ["CHC2D", "CHA3U", "CHY4U"],
   "Geography": ["CGC1D", "CGF3M", "CGW4U"],
-  "Visual Arts": ["AVI1O", "AVI2O", "AVI3M", "AVI4M"]
+  "Visual Arts": ["AVI1O", "AVI2O", "AVI3M", "AVI4M"],
+  "Civics and Citizenship Career Studies": ["CHV2O","GLC2O"],
+  "Drama": ["ADA1O", "ADA2O", "ADA3M", "ADA4M"]
 };
 
 const courseDescriptionMap = {
@@ -26,6 +28,12 @@ const courseDescriptionMap = {
   "EAE2D": "English, Grade 10, Academic",
   "EAE3U": "English, Grade 11, University Prep",
   "EAE4U": "English, Grade 12, University Prep",
+  "ELSCO": "English as a Second Language, Level 3",
+  "ESLDO": "English as a Second Language, Level 4",
+  "ESLEO": "English as a Second Language, Level 5",
+  "ENG1W": "English, Grade 9",
+  "ELS2O": "Literacy Skills: Reading and Writing",
+  "EPS3O": "Presentation and Speaking Skills",
 
   "ETC3M": "Canadian Literature, Grade 11, University/College Prep",
   "ETC4M": "Canadian Literature, Grade 12, University/College Prep",
@@ -69,7 +77,15 @@ const courseDescriptionMap = {
   "AVI1O": "Visual Arts, Grade 9, Open",
   "AVI2O": "Visual Arts, Grade 10, Open",
   "AVI3M": "Visual Arts, Grade 11, University/College Prep",
-  "AVI4M": "Visual Arts, Grade 12, University/College Prep"
+  "AVI4M": "Visual Arts, Grade 12, University/College Prep",
+
+  "ADA1O": "Drama, Grade 9, Open",
+  "ADA2O": "Drama, Grade 10, Open",
+  "ADA3M": "Drama, Grade 11, University/College Prep",
+  "ADA4M": "Drama, Grade 12, University/College Prep",
+
+  "CHV2O": "Civics and Citizenship, Grade 10, Open",
+  "GLC2O": "Career Studies, Grade 10, Open"
 };
 
 let courseCount = 0;
