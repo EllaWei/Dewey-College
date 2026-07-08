@@ -1,5 +1,5 @@
 const courseCodeMap = {
-  "English": ["ENG1D", "ENG2D", "ENG3U", "ENG4U", "EAE1D", "EAE2D", "EAE3U", "EAE4U", "ELSCO", "ESLDO", "ESLEO", "ENG1W", "ELS2O", "EPS3O"],
+  "English": ["ENG1W", "ENG2D", "ENG3U", "ENG4U", "EAE1D", "EAE2D", "EAE3U", "EAE4U", "ELSCO", "ESLDO", "ESLEO", "ENG1W", "ELS2O", "EPS3O"],
   "Canadian Literature": ["ETC3M", "ETC4M"],
   "Mathematics": ["MTH1W", "MPM2D", "MCR3U", "MCF3M"],
   "Advanced Functions": ["MHF4U"],
@@ -16,11 +16,12 @@ const courseCodeMap = {
   "Geography": ["CGC1D", "CGF3M", "CGW4U"],
   "Visual Arts": ["AVI1O", "AVI2O", "AVI3M", "AVI4M"],
   "Civics and Citizenship Career Studies": ["CHV2O","GLC2O"],
-  "Drama": ["ADA1O", "ADA2O", "ADA3M", "ADA4M"]
+  "Drama": ["ADA1O", "ADA2O", "ADA3M", "ADA4M"],
+  "Social Science" : ["HFC3M", "HHD3O", "HPC3O", "HPW3C", "HSB4U", "HHS4C", "HPC4O", "HSE4M", "HZT4O"]
 };
 
 const courseDescriptionMap = {
-  "ENG1D": "English, Grade 9, Academic",
+  "ENG1W": "English, Grade 9, Academic",
   "ENG2D": "English, Grade 10, Academic",
   "ENG3U": "English, Grade 11, University Prep",
   "ENG4U": "English, Grade 12, University Prep",
@@ -85,7 +86,17 @@ const courseDescriptionMap = {
   "ADA4M": "Drama, Grade 12, University/College Prep",
 
   "CHV2O": "Civics and Citizenship, Grade 10, Open",
-  "GLC2O": "Career Studies, Grade 10, Open"
+  "GLC2O": "Career Studies, Grade 10, Open",
+
+  "HFC3M": "Food and Culture",
+  "HHD3O": "Dynamics of Human Relationships",
+  "HPC3O": "Raising Healthy Children",
+  "HPW3C": "Raising Healthy Children",
+  "HSB4U": "Challenge and Change in Society",
+  "HHS4C": "Families in Canada",
+  "HPC4O": "Personal Life Management",
+  "HSE4M": "Equity and Social Justice: From Theory to Practice",
+  "HZT4O": "Philosophy: The Big Questions",
 };
 
 let courseCount = 0;
