@@ -1,5 +1,5 @@
 const courseCodeMap = {
-  "English": ["ENL1W", "ENG2D", "ENG2P", "ENG3U", "ENG4U"],
+  "English": ["ENL1W", "ENG2D", "ENG2P", "ENG3U", "ENG4U", "ELS2O"],
   "Media Studies": ["EMS3O"],
   "Presentation and Speaking Skills": ["EPS3O"],
   "Canadian Literature": ["ETC3M"],
@@ -76,6 +76,7 @@ const courseCodeMap = {
 
 const courseDescriptionMap = {
   "ENL1W": "English, Grade 9",
+  "ELS2O": "Literacy Skills: Reading and Writing",
   "ENG2D": "English, Grade 10, Academic",
   "ENG2P": "English, Grade 10, Applied",
   "ENG3U": "English, Grade 11, University Prep",
