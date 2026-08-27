@@ -79,7 +79,7 @@
 
       <div class="button-row">
         <button type="button" id="generateBtn">Generate Report Card</button>
-        <button type="button" id="printBtn">Export PDF / Print</button></button>
+        <button type="button" id="printBtn">Export PDF / Print</button>
       </div>
     </section>
 
@@ -121,7 +121,7 @@
 
             <td>
               <p>Date: <span id="previewDate"></span></p>
-              <p>Principal: &nbsp;&nbsp;&nbsp;&nbsp; Donna Zhang </p>
+              <p>Principal: <span id="previewPrincipal">Donna Zhang</span></p>
               <p>Report Period: <span id="previewReportPeriod"></span></p>
             </td>
           </tr>
@@ -129,23 +129,33 @@
 
         <!-- COURSE TABLE -->
         <table class="course-report-table">
+          <colgroup>
+            <col class="col-course" />
+            <col class="col-grade" />
+            <col class="col-median" />
+            <col class="col-credit" />
+            <col class="col-comments" />
+            <col class="col-missed" />
+            <col class="col-lates" />
+            <col class="col-skill" span="6" />
+          </colgroup>
           <thead>
             <tr>
               <th rowspan="2" class="course-column">Course</th>
-              <th rowspan="2" class="vertical-header">Percentage Grade</th>
-              <th rowspan="2" class="vertical-header">Course Median</th>
-              <th rowspan="2" class="vertical-header">Credit Earned</th>
+              <th rowspan="2" class="vertical-header"><span>Percentage Grade</span></th>
+              <th rowspan="2" class="vertical-header"><span>Course Median</span></th>
+              <th rowspan="2" class="vertical-header"><span>Credit Earned</span></th>
               <th rowspan="2" class="comments-column">
                 Comments<br />
                 <span>Strengths/Next Steps for Improvement</span>
               </th>
               <th colspan="2">Attendance</th>
-              <th rowspan="2" class="vertical-header">Responsibility</th>
-              <th rowspan="2" class="vertical-header">Organization</th>
-              <th rowspan="2" class="vertical-header">Independent Work</th>
-              <th rowspan="2" class="vertical-header">Collaboration</th>
-              <th rowspan="2" class="vertical-header">Initiative</th>
-              <th rowspan="2" class="vertical-header">Self-Regulation</th>
+              <th rowspan="2" class="vertical-header"><span>Responsibility</span></th>
+              <th rowspan="2" class="vertical-header"><span>Organization</span></th>
+              <th rowspan="2" class="vertical-header"><span>Independent Work</span></th>
+              <th rowspan="2" class="vertical-header"><span>Collaboration</span></th>
+              <th rowspan="2" class="vertical-header"><span>Initiative</span></th>
+              <th rowspan="2" class="vertical-header"><span>Self-Regulation</span></th>
             </tr>
 
             <tr>
